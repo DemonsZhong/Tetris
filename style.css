@@ -1,0 +1,70 @@
+#gameUI {
+	position: absolute;
+	width: 450px;
+	height: 411px;
+	border: solid black;
+	left: 455px;
+	top: 60px; 
+}
+
+#gamePanel {
+	float: left;
+}
+
+#canvas2 {
+	position: absolute;
+	top: 5px;
+}
+
+#canvas3 {
+	position: absolute;
+	top: 120px;
+}
+
+#canvas4 {
+	position: absolute;
+	top: 235px;
+}
+
+#setting {
+	position: absolute;
+	top: 350px;
+}
+
+#gameInfo {
+	float: left;
+}
+
+/* #setting {
+	position: absolute;
+	left: 455px;
+	top: 490px;
+	width: 450px;
+	height: 50px;
+	border: solid black;
+} */
+
+span {
+	position: absolute;
+	left: 80px;
+}
+
+form {
+	position: absolute;;
+	left: 75px;
+	top: 20px;
+}
+
+.start {
+	position: absolute;
+	top: 10px;
+	left: 20px;
+	width: 40px;
+	height: 40px;
+} 
+img {
+	-webkit-transition: transform 0.5s;
+}
+img:hover {
+	-webkit-transform: scale(1.1, 1.1);
+}

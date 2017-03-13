@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>俄罗斯方块</title>
+	<link type="text/css" rel="stylesheet" href="tetris.css">
+</head>
+<body>
+	<div id="gameUI"> <!-- 游戏界面 -->
+		<div id="gamePanel"> <!-- 游戏面板 -->
+			<canvas id="canvas1" width="281" height="401" style="border:1px solid #000000; margin:5px; border-radius:5px;">
+			</canvas>
+		</div>
+		<div id="gameInfo">
+			<canvas id="canvas2" width="150" height="100" style="border:1px solid #000000;"></canvas>
+			<canvas id="canvas3" width="150" height="100" style="border:1px solid #000000;"></canvas>
+			<canvas id="canvas4" width="150" height="100" style="border:1px solid #000000;"></canvas>
+			<div id="setting">
+				<a href="#" class="start">
+					<img src="icons/start.png" onclick="game.startGame()">
+				</a>
+				<span>level</span>
+				<form id="speeed">
+					<input type="number" min="1" max="3" value="1">
+				</form>
+			</div>
+		</div> <!-- 游戏信息 -->
+	</div>
+	<!-- <div id="setting"> 游戏设置
+		<a href="#" class="start" onclick="">
+			<img src="icons/start.png" onclick="game.startGame()">
+		</a>
+	</div> -->
+	
+	<script src="operation.js"></script>
+</body>
+</html>
